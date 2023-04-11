@@ -41,7 +41,7 @@
 
 
 ## ✨ Illustration <a id="illustration"></a>
-![illustration]()
+![illustration](./screenshot.png)
 
 
 ## 🗒 Description <a id="description"></a>
@@ -58,7 +58,18 @@ Multithreading :
 
 
 ## 🎯 Objectives <a id="objectives"></a>
-- Understand mechanism of threads
+- **Understand mechanism of threads**
+- **Understand the two ways of creating threads**
+  - extends Thread class
+  - implements Runnable interface
+- **Understand the difference between start() and run() methods**
+  - start() method starts multiple threads
+  - run() method only executes one thread
+- **Which one is better ?**
+  - _major advantage_ of using **implements Runnable interface**
+    - More FLEXIBILITY
+    - Java doesn't support multiple inheritance 
+    - => using **implements** make **extends** usable
 
 ## 🎯 SetUp <a id="setup"></a>
 - How to launch React Sudoku
@@ -69,7 +80,7 @@ Multithreading :
 
 ## 📈 Status <a id="status"></a>
 
-Project in progress ...
+Project finished
 
 
 ## 🗓 Context <a id="context"> </a>
