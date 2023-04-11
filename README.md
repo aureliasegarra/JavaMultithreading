@@ -72,7 +72,7 @@ Multithreading :
     - => using **implements** make **extends** usable
 
 ## 🎯 SetUp <a id="setup"></a>
-- How to launch React Sudoku
+- How to launch simple demo
     - `git clone`
     - `cd java-multithreading`
     - `mvn clean install`
